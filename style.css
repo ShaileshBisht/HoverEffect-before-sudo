@@ -48,3 +48,14 @@
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
+
+.btn-2 {
+  font-size: 2rem;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  z-index: 0;
+  border: 2px solid yellowgreen;
+  font-weight: 400;
+}
