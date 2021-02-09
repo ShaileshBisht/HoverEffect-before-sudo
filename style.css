@@ -50,6 +50,7 @@
 }
 
 .btn-2 {
+    border-radius: 20px;
   font-size: 2rem;
   padding: 20px;
   text-transform: uppercase;
@@ -67,6 +68,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  border-radius: 20px;
   height: 100%;
   transition: all 0.5s ease-in-out;
   border-bottom: 5px solid black;
@@ -76,7 +78,7 @@
   opacity: 0;
 }
 
-.btn-2::after {
+/* .btn-2::after {
   content: "";
   position: absolute;
   top: 0;
@@ -86,7 +88,7 @@
   z-index: 0;
   background-color: black;
   opacity: 0;
-}
+} */
 
 .btn-2:hover::before {
   transform: scale(1);
