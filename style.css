@@ -131,3 +131,7 @@
     z-index: 1;
     transform: translateX(-100%);
   }
+
+  .btn-3:hover::before{
+    transform: translateX(100%);
+  }
