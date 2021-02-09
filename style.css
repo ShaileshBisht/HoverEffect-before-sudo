@@ -21,6 +21,8 @@
   letter-spacing: 3px;
   position: relative;
   z-index: 0;
+  border: 2px solid yellowgreen;
+  font-weight: 400;
 }
 
 .btn-1::after {
